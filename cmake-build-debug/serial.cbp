@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial">
-				<Option output="D:/Study/2020-2/Serial/serial-master/cmake-build-debug/libserial.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option output="D:/Study/2020-2/Serial/serial-template/cmake-build-debug/libserial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Study/2020-2/Serial/serial-master/include"/>
+					<Add directory="D:/Study/2020-2/Serial/serial-template/include"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -33,20 +33,20 @@
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="serial/fast">
-				<Option output="D:/Study/2020-2/Serial/serial-master/cmake-build-debug/libserial.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option output="D:/Study/2020-2/Serial/serial-template/cmake-build-debug/libserial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Study/2020-2/Serial/serial-master/include"/>
+					<Add directory="D:/Study/2020-2/Serial/serial-template/include"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,30 +55,30 @@
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial/fast"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 serial/fast"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test">
-				<Option output="D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option output="D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Study/2020-2/Serial/serial-master/include"/>
+					<Add directory="D:/Study/2020-2/Serial/serial-template/include"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -87,20 +87,20 @@
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test/fast">
-				<Option output="D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option output="D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Study/2020-2/Serial/serial-master/include"/>
+					<Add directory="D:/Study/2020-2/Serial/serial-template/include"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -109,54 +109,42 @@
 					<Add directory="D:/mingGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Study/2020-2/Serial/serial-master/cmake-build-debug"/>
+				<Option working_dir="D:/Study/2020-2/Serial/serial-template/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Study/2020-2/Serial/serial-template/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/include/HandConfig.h">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/include/serial/serial.h">
 			<Option target="serial"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/include/serial/serial.h">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/include/serial/v8stdint.h">
 			<Option target="serial"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/include/serial/v8stdint.h">
-			<Option target="serial"/>
-		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/main.cpp">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/main.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/finger.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/graspController.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/impl/list_ports/list_ports_win.cc">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/src/impl/list_ports/list_ports_win.cc">
 			<Option target="serial"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/impl/win.cc">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/src/impl/win.cc">
 			<Option target="serial"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/motor/motor.cpp">
-			<Option target="Test"/>
-		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/src/serial.cc">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/src/serial.cc">
 			<Option target="serial"/>
 		</Unit>
-		<Unit filename="D:/Study/2020-2/Serial/serial-master/CMakeLists.txt">
+		<Unit filename="D:/Study/2020-2/Serial/serial-template/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

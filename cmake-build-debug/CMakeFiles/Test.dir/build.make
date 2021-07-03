@@ -62,10 +62,10 @@ RM = "D:\Tools\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-master
+CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-template\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -79,79 +79,31 @@ include CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/main.cpp.obj: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/main.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
 CMakeFiles/Test.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/main.cpp.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\main.cpp.obj -c D:\Study\2020-2\Serial\serial-master\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test.dir/main.cpp.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\main.cpp.obj -c D:\Study\2020-2\Serial\serial-template\main.cpp
 
 CMakeFiles/Test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/main.cpp.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\main.cpp > CMakeFiles\Test.dir\main.cpp.i
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\main.cpp > CMakeFiles\Test.dir\main.cpp.i
 
 CMakeFiles/Test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/main.cpp.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\main.cpp -o CMakeFiles\Test.dir\main.cpp.s
-
-CMakeFiles/Test.dir/src/motor/motor.cpp.obj: CMakeFiles/Test.dir/flags.make
-CMakeFiles/Test.dir/src/motor/motor.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
-CMakeFiles/Test.dir/src/motor/motor.cpp.obj: ../src/motor/motor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/src/motor/motor.cpp.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\motor\motor.cpp.obj -c D:\Study\2020-2\Serial\serial-master\src\motor\motor.cpp
-
-CMakeFiles/Test.dir/src/motor/motor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/motor/motor.cpp.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\motor\motor.cpp > CMakeFiles\Test.dir\src\motor\motor.cpp.i
-
-CMakeFiles/Test.dir/src/motor/motor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/motor/motor.cpp.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\motor\motor.cpp -o CMakeFiles\Test.dir\src\motor\motor.cpp.s
-
-CMakeFiles/Test.dir/src/finger.cpp.obj: CMakeFiles/Test.dir/flags.make
-CMakeFiles/Test.dir/src/finger.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
-CMakeFiles/Test.dir/src/finger.cpp.obj: ../src/finger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/src/finger.cpp.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\finger.cpp.obj -c D:\Study\2020-2\Serial\serial-master\src\finger.cpp
-
-CMakeFiles/Test.dir/src/finger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/finger.cpp.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\finger.cpp > CMakeFiles\Test.dir\src\finger.cpp.i
-
-CMakeFiles/Test.dir/src/finger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/finger.cpp.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\finger.cpp -o CMakeFiles\Test.dir\src\finger.cpp.s
-
-CMakeFiles/Test.dir/src/graspController.cpp.obj: CMakeFiles/Test.dir/flags.make
-CMakeFiles/Test.dir/src/graspController.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
-CMakeFiles/Test.dir/src/graspController.cpp.obj: ../src/graspController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/src/graspController.cpp.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\graspController.cpp.obj -c D:\Study\2020-2\Serial\serial-master\src\graspController.cpp
-
-CMakeFiles/Test.dir/src/graspController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/graspController.cpp.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\graspController.cpp > CMakeFiles\Test.dir\src\graspController.cpp.i
-
-CMakeFiles/Test.dir/src/graspController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/graspController.cpp.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\graspController.cpp -o CMakeFiles\Test.dir\src\graspController.cpp.s
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\main.cpp -o CMakeFiles\Test.dir\main.cpp.s
 
 # Object files for target Test
 Test_OBJECTS = \
-"CMakeFiles/Test.dir/main.cpp.obj" \
-"CMakeFiles/Test.dir/src/motor/motor.cpp.obj" \
-"CMakeFiles/Test.dir/src/finger.cpp.obj" \
-"CMakeFiles/Test.dir/src/graspController.cpp.obj"
+"CMakeFiles/Test.dir/main.cpp.obj"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
 
 Test.exe: CMakeFiles/Test.dir/main.cpp.obj
-Test.exe: CMakeFiles/Test.dir/src/motor/motor.cpp.obj
-Test.exe: CMakeFiles/Test.dir/src/finger.cpp.obj
-Test.exe: CMakeFiles/Test.dir/src/graspController.cpp.obj
 Test.exe: CMakeFiles/Test.dir/build.make
 Test.exe: libserial.a
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
 Test.exe: CMakeFiles/Test.dir/objects1.rsp
 Test.exe: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -164,6 +116,6 @@ CMakeFiles/Test.dir/clean:
 .PHONY : CMakeFiles/Test.dir/clean
 
 CMakeFiles/Test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Study\2020-2\Serial\serial-master D:\Study\2020-2\Serial\serial-master D:\Study\2020-2\Serial\serial-master\cmake-build-debug D:\Study\2020-2\Serial\serial-master\cmake-build-debug D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles\Test.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Study\2020-2\Serial\serial-template D:\Study\2020-2\Serial\serial-template D:\Study\2020-2\Serial\serial-template\cmake-build-debug D:\Study\2020-2\Serial\serial-template\cmake-build-debug D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles\Test.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 

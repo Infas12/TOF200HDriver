@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Study/2020-2/Serial/serial-master/src/impl/list_ports/list_ports_win.cc" "D:/Study/2020-2/Serial/serial-master/cmake-build-debug/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj"
-  "D:/Study/2020-2/Serial/serial-master/src/impl/win.cc" "D:/Study/2020-2/Serial/serial-master/cmake-build-debug/CMakeFiles/serial.dir/src/impl/win.cc.obj"
-  "D:/Study/2020-2/Serial/serial-master/src/serial.cc" "D:/Study/2020-2/Serial/serial-master/cmake-build-debug/CMakeFiles/serial.dir/src/serial.cc.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/impl/list_ports/list_ports_win.cc" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/impl/win.cc" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/serial.dir/src/impl/win.cc.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/serial.cc" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/serial.dir/src/serial.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

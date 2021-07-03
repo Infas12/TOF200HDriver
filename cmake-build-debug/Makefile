@@ -67,10 +67,10 @@ RM = "D:\Tools\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-master
+CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-template\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -182,60 +182,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/finger.obj: src/finger.cpp.obj
-
-.PHONY : src/finger.obj
-
-# target to build an object file
-src/finger.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/finger.cpp.obj
-.PHONY : src/finger.cpp.obj
-
-src/finger.i: src/finger.cpp.i
-
-.PHONY : src/finger.i
-
-# target to preprocess a source file
-src/finger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/finger.cpp.i
-.PHONY : src/finger.cpp.i
-
-src/finger.s: src/finger.cpp.s
-
-.PHONY : src/finger.s
-
-# target to generate assembly for a file
-src/finger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/finger.cpp.s
-.PHONY : src/finger.cpp.s
-
-src/graspController.obj: src/graspController.cpp.obj
-
-.PHONY : src/graspController.obj
-
-# target to build an object file
-src/graspController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/graspController.cpp.obj
-.PHONY : src/graspController.cpp.obj
-
-src/graspController.i: src/graspController.cpp.i
-
-.PHONY : src/graspController.i
-
-# target to preprocess a source file
-src/graspController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/graspController.cpp.i
-.PHONY : src/graspController.cpp.i
-
-src/graspController.s: src/graspController.cpp.s
-
-.PHONY : src/graspController.s
-
-# target to generate assembly for a file
-src/graspController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/graspController.cpp.s
-.PHONY : src/graspController.cpp.s
-
 src/impl/list_ports/list_ports_win.obj: src/impl/list_ports/list_ports_win.cc.obj
 
 .PHONY : src/impl/list_ports/list_ports_win.obj
@@ -290,33 +236,6 @@ src/impl/win.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\serial.dir\build.make CMakeFiles/serial.dir/src/impl/win.cc.s
 .PHONY : src/impl/win.cc.s
 
-src/motor/motor.obj: src/motor/motor.cpp.obj
-
-.PHONY : src/motor/motor.obj
-
-# target to build an object file
-src/motor/motor.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/motor/motor.cpp.obj
-.PHONY : src/motor/motor.cpp.obj
-
-src/motor/motor.i: src/motor/motor.cpp.i
-
-.PHONY : src/motor/motor.i
-
-# target to preprocess a source file
-src/motor/motor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/motor/motor.cpp.i
-.PHONY : src/motor/motor.cpp.i
-
-src/motor/motor.s: src/motor/motor.cpp.s
-
-.PHONY : src/motor/motor.s
-
-# target to generate assembly for a file
-src/motor/motor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/motor/motor.cpp.s
-.PHONY : src/motor/motor.cpp.s
-
 src/serial.obj: src/serial.cc.obj
 
 .PHONY : src/serial.obj
@@ -357,21 +276,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/finger.obj
-	@echo ... src/finger.i
-	@echo ... src/finger.s
-	@echo ... src/graspController.obj
-	@echo ... src/graspController.i
-	@echo ... src/graspController.s
 	@echo ... src/impl/list_ports/list_ports_win.obj
 	@echo ... src/impl/list_ports/list_ports_win.i
 	@echo ... src/impl/list_ports/list_ports_win.s
 	@echo ... src/impl/win.obj
 	@echo ... src/impl/win.i
 	@echo ... src/impl/win.s
-	@echo ... src/motor/motor.obj
-	@echo ... src/motor/motor.i
-	@echo ... src/motor/motor.s
 	@echo ... src/serial.obj
 	@echo ... src/serial.i
 	@echo ... src/serial.s

@@ -62,10 +62,10 @@ RM = "D:\Tools\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-master
+CMAKE_SOURCE_DIR = D:\Study\2020-2\Serial\serial-template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-master\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Study\2020-2\Serial\serial-template\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/serial.dir/depend.make
@@ -79,44 +79,44 @@ include CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/src/serial.cc.obj: CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/src/serial.cc.obj: CMakeFiles/serial.dir/includes_CXX.rsp
 CMakeFiles/serial.dir/src/serial.cc.obj: ../src/serial.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serial.dir/src/serial.cc.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\serial.cc.obj -c D:\Study\2020-2\Serial\serial-master\src\serial.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serial.dir/src/serial.cc.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\serial.cc.obj -c D:\Study\2020-2\Serial\serial-template\src\serial.cc
 
 CMakeFiles/serial.dir/src/serial.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/src/serial.cc.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\serial.cc > CMakeFiles\serial.dir\src\serial.cc.i
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\serial.cc > CMakeFiles\serial.dir\src\serial.cc.i
 
 CMakeFiles/serial.dir/src/serial.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/src/serial.cc.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\serial.cc -o CMakeFiles\serial.dir\src\serial.cc.s
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\serial.cc -o CMakeFiles\serial.dir\src\serial.cc.s
 
 CMakeFiles/serial.dir/src/impl/win.cc.obj: CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/src/impl/win.cc.obj: CMakeFiles/serial.dir/includes_CXX.rsp
 CMakeFiles/serial.dir/src/impl/win.cc.obj: ../src/impl/win.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial.dir/src/impl/win.cc.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\impl\win.cc.obj -c D:\Study\2020-2\Serial\serial-master\src\impl\win.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serial.dir/src/impl/win.cc.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\impl\win.cc.obj -c D:\Study\2020-2\Serial\serial-template\src\impl\win.cc
 
 CMakeFiles/serial.dir/src/impl/win.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/src/impl/win.cc.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\impl\win.cc > CMakeFiles\serial.dir\src\impl\win.cc.i
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\impl\win.cc > CMakeFiles\serial.dir\src\impl\win.cc.i
 
 CMakeFiles/serial.dir/src/impl/win.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/src/impl/win.cc.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\impl\win.cc -o CMakeFiles\serial.dir\src\impl\win.cc.s
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\impl\win.cc -o CMakeFiles\serial.dir\src\impl\win.cc.s
 
 CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj: CMakeFiles/serial.dir/flags.make
 CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj: CMakeFiles/serial.dir/includes_CXX.rsp
 CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj: ../src/impl/list_ports/list_ports_win.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj"
-	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.obj -c D:\Study\2020-2\Serial\serial-master\src\impl\list_ports\list_ports_win.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.obj -c D:\Study\2020-2\Serial\serial-template\src\impl\list_ports\list_ports_win.cc
 
 CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.i"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-master\src\impl\list_ports\list_ports_win.cc > CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.i
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\impl\list_ports\list_ports_win.cc > CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.i
 
 CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.s"
-	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-master\src\impl\list_ports\list_ports_win.cc -o CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.s
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\impl\list_ports\list_ports_win.cc -o CMakeFiles\serial.dir\src\impl\list_ports\list_ports_win.cc.s
 
 # Object files for target serial
 serial_OBJECTS = \
@@ -132,7 +132,7 @@ libserial.a: CMakeFiles/serial.dir/src/impl/win.cc.obj
 libserial.a: CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj
 libserial.a: CMakeFiles/serial.dir/build.make
 libserial.a: CMakeFiles/serial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libserial.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libserial.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\serial.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\serial.dir\link.txt --verbose=$(VERBOSE)
 
@@ -146,6 +146,6 @@ CMakeFiles/serial.dir/clean:
 .PHONY : CMakeFiles/serial.dir/clean
 
 CMakeFiles/serial.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Study\2020-2\Serial\serial-master D:\Study\2020-2\Serial\serial-master D:\Study\2020-2\Serial\serial-master\cmake-build-debug D:\Study\2020-2\Serial\serial-master\cmake-build-debug D:\Study\2020-2\Serial\serial-master\cmake-build-debug\CMakeFiles\serial.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Study\2020-2\Serial\serial-template D:\Study\2020-2\Serial\serial-template D:\Study\2020-2\Serial\serial-template\cmake-build-debug D:\Study\2020-2\Serial\serial-template\cmake-build-debug D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles\serial.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serial.dir/depend
 

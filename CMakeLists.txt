@@ -14,7 +14,7 @@ include_directories(include)
 set(serial_SRCS
     src/serial.cc
     include/serial/serial.h
-    include/serial/v8stdint.h include/HandConfig.h)
+    include/serial/v8stdint.h)
 
 list(APPEND serial_SRCS src/impl/win.cc)
 list(APPEND serial_SRCS src/impl/list_ports/list_ports_win.cc)
@@ -26,10 +26,7 @@ add_library(${PROJECT_NAME} ${serial_SRCS})
 target_link_libraries(${PROJECT_NAME} setupapi)
 
 ## Source
-set(SRCS
-        src/motor/motor.cpp
-        src/finger.cpp
-        src/graspController.cpp)
+set(SRCS )
 
 add_executable(Test main.cpp ${SRCS})
 

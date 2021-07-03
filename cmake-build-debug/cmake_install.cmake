@@ -1,4 +1,4 @@
-# Install script for directory: D:/Study/2020-2/Serial/serial-master
+# Install script for directory: D:/Study/2020-2/Serial/serial-template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Study/2020-2/Serial/serial-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

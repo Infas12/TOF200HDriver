@@ -1,4 +1,4 @@
-"D:\Tools\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Study\2020-2\Serial\serial-master
+"D:\Tools\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Study\2020-2\Serial\serial-template
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Study/2020-2/Serial/serial-master/cmake-build-debug
+-- Build files have been written to: D:/Study/2020-2/Serial/serial-template/cmake-build-debug
