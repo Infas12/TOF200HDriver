@@ -1,0 +1,2 @@
+D:\mingGW\mingw64\bin\ar.exe qc libserial.a  CMakeFiles/serial.dir/src/serial.cc.obj CMakeFiles/serial.dir/src/impl/win.cc.obj CMakeFiles/serial.dir/src/impl/list_ports/list_ports_win.cc.obj
+D:\mingGW\mingw64\bin\ranlib.exe libserial.a
