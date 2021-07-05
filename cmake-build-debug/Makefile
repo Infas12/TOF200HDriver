@@ -182,6 +182,114 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Crc.obj: src/Crc.cpp.obj
+
+.PHONY : src/Crc.obj
+
+# target to build an object file
+src/Crc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Crc.cpp.obj
+.PHONY : src/Crc.cpp.obj
+
+src/Crc.i: src/Crc.cpp.i
+
+.PHONY : src/Crc.i
+
+# target to preprocess a source file
+src/Crc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Crc.cpp.i
+.PHONY : src/Crc.cpp.i
+
+src/Crc.s: src/Crc.cpp.s
+
+.PHONY : src/Crc.s
+
+# target to generate assembly for a file
+src/Crc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Crc.cpp.s
+.PHONY : src/Crc.cpp.s
+
+src/Packet/HostPacket.obj: src/Packet/HostPacket.cpp.obj
+
+.PHONY : src/Packet/HostPacket.obj
+
+# target to build an object file
+src/Packet/HostPacket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj
+.PHONY : src/Packet/HostPacket.cpp.obj
+
+src/Packet/HostPacket.i: src/Packet/HostPacket.cpp.i
+
+.PHONY : src/Packet/HostPacket.i
+
+# target to preprocess a source file
+src/Packet/HostPacket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.i
+.PHONY : src/Packet/HostPacket.cpp.i
+
+src/Packet/HostPacket.s: src/Packet/HostPacket.cpp.s
+
+.PHONY : src/Packet/HostPacket.s
+
+# target to generate assembly for a file
+src/Packet/HostPacket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.s
+.PHONY : src/Packet/HostPacket.cpp.s
+
+src/Packet/MemoryStream.obj: src/Packet/MemoryStream.cpp.obj
+
+.PHONY : src/Packet/MemoryStream.obj
+
+# target to build an object file
+src/Packet/MemoryStream.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj
+.PHONY : src/Packet/MemoryStream.cpp.obj
+
+src/Packet/MemoryStream.i: src/Packet/MemoryStream.cpp.i
+
+.PHONY : src/Packet/MemoryStream.i
+
+# target to preprocess a source file
+src/Packet/MemoryStream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.i
+.PHONY : src/Packet/MemoryStream.cpp.i
+
+src/Packet/MemoryStream.s: src/Packet/MemoryStream.cpp.s
+
+.PHONY : src/Packet/MemoryStream.s
+
+# target to generate assembly for a file
+src/Packet/MemoryStream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.s
+.PHONY : src/Packet/MemoryStream.cpp.s
+
+src/Packet/Packet.obj: src/Packet/Packet.cpp.obj
+
+.PHONY : src/Packet/Packet.obj
+
+# target to build an object file
+src/Packet/Packet.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj
+.PHONY : src/Packet/Packet.cpp.obj
+
+src/Packet/Packet.i: src/Packet/Packet.cpp.i
+
+.PHONY : src/Packet/Packet.i
+
+# target to preprocess a source file
+src/Packet/Packet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/Packet.cpp.i
+.PHONY : src/Packet/Packet.cpp.i
+
+src/Packet/Packet.s: src/Packet/Packet.cpp.s
+
+.PHONY : src/Packet/Packet.s
+
+# target to generate assembly for a file
+src/Packet/Packet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/src/Packet/Packet.cpp.s
+.PHONY : src/Packet/Packet.cpp.s
+
 src/impl/list_ports/list_ports_win.obj: src/impl/list_ports/list_ports_win.cc.obj
 
 .PHONY : src/impl/list_ports/list_ports_win.obj
@@ -276,6 +384,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Crc.obj
+	@echo ... src/Crc.i
+	@echo ... src/Crc.s
+	@echo ... src/Packet/HostPacket.obj
+	@echo ... src/Packet/HostPacket.i
+	@echo ... src/Packet/HostPacket.s
+	@echo ... src/Packet/MemoryStream.obj
+	@echo ... src/Packet/MemoryStream.i
+	@echo ... src/Packet/MemoryStream.s
+	@echo ... src/Packet/Packet.obj
+	@echo ... src/Packet/Packet.i
+	@echo ... src/Packet/Packet.s
 	@echo ... src/impl/list_ports/list_ports_win.obj
 	@echo ... src/impl/list_ports/list_ports_win.i
 	@echo ... src/impl/list_ports/list_ports_win.s

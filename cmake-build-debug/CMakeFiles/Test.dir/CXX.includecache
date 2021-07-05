@@ -6,7 +6,47 @@
 
 #IncludeRegexTransform: 
 
-../include/Tick.h
+../include/Crc.hpp
+stdint.h
+../include/stdint.h
+
+../include/HashTable.hpp
+stdint.h
+../include/stdint.h
+
+../include/Math.hpp
+stdint.h
+-
+
+../include/Packet/HostPacket.hpp
+Packet.hpp
+../include/Packet/Packet.hpp
+serial/serial.h
+../include/Packet/serial/serial.h
+
+../include/Packet/MemoryStream.hpp
+stdint.h
+../include/Packet/stdint.h
+Math.hpp
+../include/Packet/Math.hpp
+
+../include/Packet/Observer.hpp
+stdint.h
+../include/Packet/stdint.h
+
+../include/Packet/Packet.hpp
+HashTable.hpp
+../include/Packet/HashTable.hpp
+stdint.h
+-
+Observer.hpp
+../include/Packet/Observer.hpp
+MemoryStream.hpp
+../include/Packet/MemoryStream.hpp
+Crc.hpp
+../include/Packet/Crc.hpp
+
+../include/Time.hpp
 
 ../include/serial/serial.h
 limits
@@ -39,12 +79,16 @@ serial/serial.h
 D:/Study/2020-2/Serial/serial-template/serial/serial.h
 math.h
 D:/Study/2020-2/Serial/serial-template/math.h
-Tick.h
-D:/Study/2020-2/Serial/serial-template/Tick.h
+Time.hpp
+D:/Study/2020-2/Serial/serial-template/Time.hpp
+Packet/Packet.hpp
+D:/Study/2020-2/Serial/serial-template/Packet/Packet.hpp
 iostream
 -
 thread
 -
 chrono
 -
+Packet/HostPacket.hpp
+D:/Study/2020-2/Serial/serial-template/Packet/HostPacket.hpp
 

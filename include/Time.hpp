@@ -2,18 +2,18 @@
 // Created by tiger on 2021/7/2.
 //
 
-#ifndef SERIAL_TICK_H
-#define SERIAL_TICK_H
+#ifndef SERIAL_TIME_HPP
+#define SERIAL_TIME_HPP
 
 #define MSPERTICK 10
 
-class Tick{
+class Time{
 private:
     int m_msPerTick;
     int m_currentTick;
-    Tick(int msPerTick, int currentTick): m_currentTick(currentTick), m_msPerTick(msPerTick){;}
-    static Tick* instance(){
-        static Tick instance(MSPERTICK, 0);
+    Time(int msPerTick, int currentTick): m_currentTick(currentTick), m_msPerTick(msPerTick){;}
+    static Time* instance(){
+        static Time instance(MSPERTICK, 0);
         return &instance;
     }
 public:
@@ -24,4 +24,4 @@ public:
 };
 
 
-#endif //SERIAL_TICK_H
+#endif //SERIAL_TIME_HPP

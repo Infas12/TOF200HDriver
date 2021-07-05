@@ -90,20 +90,84 @@ CMakeFiles/Test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/main.cpp.s"
 	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\main.cpp -o CMakeFiles\Test.dir\main.cpp.s
 
+CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj: ../src/Packet/Packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\Packet\Packet.cpp.obj -c D:\Study\2020-2\Serial\serial-template\src\Packet\Packet.cpp
+
+CMakeFiles/Test.dir/src/Packet/Packet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Packet/Packet.cpp.i"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\Packet\Packet.cpp > CMakeFiles\Test.dir\src\Packet\Packet.cpp.i
+
+CMakeFiles/Test.dir/src/Packet/Packet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Packet/Packet.cpp.s"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\Packet\Packet.cpp -o CMakeFiles\Test.dir\src\Packet\Packet.cpp.s
+
+CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj: ../src/Packet/HostPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\Packet\HostPacket.cpp.obj -c D:\Study\2020-2\Serial\serial-template\src\Packet\HostPacket.cpp
+
+CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.i"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\Packet\HostPacket.cpp > CMakeFiles\Test.dir\src\Packet\HostPacket.cpp.i
+
+CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.s"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\Packet\HostPacket.cpp -o CMakeFiles\Test.dir\src\Packet\HostPacket.cpp.s
+
+CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj: ../src/Packet/MemoryStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\Packet\MemoryStream.cpp.obj -c D:\Study\2020-2\Serial\serial-template\src\Packet\MemoryStream.cpp
+
+CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.i"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\Packet\MemoryStream.cpp > CMakeFiles\Test.dir\src\Packet\MemoryStream.cpp.i
+
+CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.s"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\Packet\MemoryStream.cpp -o CMakeFiles\Test.dir\src\Packet\MemoryStream.cpp.s
+
+CMakeFiles/Test.dir/src/Crc.cpp.obj: CMakeFiles/Test.dir/flags.make
+CMakeFiles/Test.dir/src/Crc.cpp.obj: CMakeFiles/Test.dir/includes_CXX.rsp
+CMakeFiles/Test.dir/src/Crc.cpp.obj: ../src/Crc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/src/Crc.cpp.obj"
+	D:\mingGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Test.dir\src\Crc.cpp.obj -c D:\Study\2020-2\Serial\serial-template\src\Crc.cpp
+
+CMakeFiles/Test.dir/src/Crc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/src/Crc.cpp.i"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Study\2020-2\Serial\serial-template\src\Crc.cpp > CMakeFiles\Test.dir\src\Crc.cpp.i
+
+CMakeFiles/Test.dir/src/Crc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/src/Crc.cpp.s"
+	D:\mingGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Study\2020-2\Serial\serial-template\src\Crc.cpp -o CMakeFiles\Test.dir\src\Crc.cpp.s
+
 # Object files for target Test
 Test_OBJECTS = \
-"CMakeFiles/Test.dir/main.cpp.obj"
+"CMakeFiles/Test.dir/main.cpp.obj" \
+"CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj" \
+"CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj" \
+"CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj" \
+"CMakeFiles/Test.dir/src/Crc.cpp.obj"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
 
 Test.exe: CMakeFiles/Test.dir/main.cpp.obj
+Test.exe: CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj
+Test.exe: CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj
+Test.exe: CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj
+Test.exe: CMakeFiles/Test.dir/src/Crc.cpp.obj
 Test.exe: CMakeFiles/Test.dir/build.make
 Test.exe: libserial.a
 Test.exe: CMakeFiles/Test.dir/linklibs.rsp
 Test.exe: CMakeFiles/Test.dir/objects1.rsp
 Test.exe: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -95,7 +95,7 @@ clean: CMakeFiles/Test.dir/clean
 CMakeFiles/serial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\serial.dir\build.make CMakeFiles/serial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\serial.dir\build.make CMakeFiles/serial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6 "Built target serial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10 "Built target serial"
 .PHONY : CMakeFiles/serial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,12 +122,12 @@ CMakeFiles/serial.dir/clean:
 CMakeFiles/Test.dir/all: CMakeFiles/serial.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Test"
 .PHONY : CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Study\2020-2\Serial\serial-template\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Test.dir/rule

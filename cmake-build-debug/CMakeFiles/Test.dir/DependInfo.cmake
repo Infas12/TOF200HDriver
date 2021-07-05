@@ -5,6 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Study/2020-2/Serial/serial-template/main.cpp" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/Test.dir/main.cpp.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/Crc.cpp" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/Test.dir/src/Crc.cpp.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/Packet/HostPacket.cpp" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/Test.dir/src/Packet/HostPacket.cpp.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/Packet/MemoryStream.cpp" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/Test.dir/src/Packet/MemoryStream.cpp.obj"
+  "D:/Study/2020-2/Serial/serial-template/src/Packet/Packet.cpp" "D:/Study/2020-2/Serial/serial-template/cmake-build-debug/CMakeFiles/Test.dir/src/Packet/Packet.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
