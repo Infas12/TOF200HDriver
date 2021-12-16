@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 2.8.3)
 project(serial)
 
 
-add_compile_options(-std=c++11)
-add_compile_options(-o2)
-add_compile_options(-march=native)
-add_compile_options(-lpthread)
+# add_compile_options(-std=c++11)
+# add_compile_options(-o2)
+# add_compile_options(-march=native)
+# add_compile_options(-lpthread)
 
 ## Include headers
 include_directories(include)
@@ -16,15 +16,23 @@ set(serial_SRCS
     include/serial/serial.h
     include/serial/v8stdint.h)
 
-list(APPEND serial_SRCS src/impl/unix.cc)
-list(APPEND serial_SRCS src/impl/list_ports/list_ports_linux.cc)
+if(UNIX)
+    list(APPEND serial_SRCS src/impl/unix.cc)
+    list(APPEND serial_SRCS src/impl/list_ports/list_ports_linux.cc)
+else()
+    list(APPEND serial_SRCS src/impl/win.cc)
+    list(APPEND serial_SRCS src/impl/list_ports/list_ports_win.cc)
+endif()
 
 ## Build Serial library
 add_library(${PROJECT_NAME} ${serial_SRCS})
 
 ## Include linux API
-target_link_libraries(${PROJECT_NAME} rt pthread)
-
+if(UNIX)
+    target_link_libraries(${PROJECT_NAME} rt pthread)
+else()
+    target_link_libraries(${PROJECT_NAME} setupapi)
+endif()
 ## Source
 set(SRCS
         src/Packet/Packet.cpp
