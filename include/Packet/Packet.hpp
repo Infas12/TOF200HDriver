@@ -6,6 +6,7 @@
 #include "Observer.hpp"
 #include "MemoryStream.hpp"
 #include "Crc.hpp"
+#include <cstring>
 
 #define STREAM_CHANNEL_BUFFER_LEN 64
 #define HEADER_LEN 5

@@ -6,39 +6,42 @@
 #include <thread>
 #include <chrono>
 #include "Packet/HostPacket.hpp"
+#include "crc16.h"
+#include "TOF200H.hpp"
 
-int main(int argc, char **argv)
+
+#include <unistd.h>
+
+
+float vx;
+float vy;
+float vw;
+
+uint8_t buf[5] = {0x01,0x03,0x02,0x00,0x65};
+
+int main(int argc, char** argv)
 {
-    //Loop Frequency
-    std::chrono::milliseconds period(Time::getMsPerTick()); //Shouldn't be higher than 100Hz.
+    //std::cout << crc_modbus(buf,5) << std::endl;
 
     //Initialize Serial
-    serial::Serial testSerial("COM1", 115200, serial::Timeout::simpleTimeout(1000));
-    HostPacketManager::Instance()->m_p_serialPort = &testSerial;
+    serial::Serial testSerial("/dev/ttyUSB0", 115200, serial::Timeout::simpleTimeout(1000));
+    TOF200H testTOF(testSerial,0x01);
 
-    EulerPacket eulerPacket(0x5A);
-    eulerPacket.Registration();
+    // HostPacketManager::Instance()->m_p_serialPort = &testSerial;
 
-    while(testSerial.isOpen()){
+    // //Declare Packages.
+    // TestPacket testPacket(0x67);
+    // testPacket.Registration();
 
-        //Get Loop start time
-        auto start_time = std::chrono::steady_clock::now();
+    while (true)
+    {
+        
+        // Restrict rate
+        usleep(1000);
 
-        //Update Time
-        Time::tick();
-
-        //test stuff.
-        eulerPacket.Send(sin(Time::getTick()*0.01),cos(Time::getTick()*0.01),3);
-
-        //update Packets.
-        HostPacketManager::Instance()->Update();
-
-        //wait until next loop start.
-        std::this_thread::sleep_until(start_time+period);
+        testTOF.Update();
 
     }
 
 
-
 }
-
