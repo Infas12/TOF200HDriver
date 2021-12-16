@@ -24,8 +24,10 @@ int main(int argc, char** argv)
     //std::cout << crc_modbus(buf,5) << std::endl;
 
     //Initialize Serial
-    serial::Serial testSerial("/dev/ttyUSB0", 115200, serial::Timeout::simpleTimeout(1000));
-    TOF200H testTOF(testSerial,0x01);
+    serial::Serial tof1Serial("/dev/ttyUSB0", 115200, serial::Timeout::simpleTimeout(1000));
+    serial::Serial tof2Serial("/dev/ttyUSB1", 115200, serial::Timeout::simpleTimeout(1000));
+    TOF200H testTOF1(tof1Serial,0x01);
+    TOF200H testTOF2(tof2Serial,0x02);
 
     // HostPacketManager::Instance()->m_p_serialPort = &testSerial;
 
@@ -36,10 +38,15 @@ int main(int argc, char** argv)
     while (true)
     {
         
-        // Restrict rate
+        //Restrict rate
         usleep(1000);
 
-        testTOF.Update();
+        testTOF1.Update();
+        testTOF2.Update();
+
+        std::cout << "TOF1:" << testTOF1.m_Distance << "TOF2:" << testTOF2.m_Distance << std::endl;
+
+        //Add logic here
 
     }
 

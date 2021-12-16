@@ -93,7 +93,6 @@ void TOF200H::HandlePacket()
     {
         case 0x03:
             m_Distance = m_PacketBuffer[3] << 8 | m_PacketBuffer[4];
-            std::cout << m_Distance << std::endl;
             break;
         default:
             std::cout << "Handler Not Implemented." << std::endl;
